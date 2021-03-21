@@ -18,14 +18,14 @@ price_promo_main_isbold = driver.find_element_by_css_selector("div#box-campaigns
 price_promo_main_size = driver.find_element_by_css_selector("div#box-campaigns s.regular-price").get_attribute("innerText")
 # price_promo_main_isbigger = 
 print("prod_name_main", prod_name_main, 
-"price_regular_main", price_regular_main,  
-"price_regular_main_isgrey", price_regular_main_isgrey,
-"price_regular_main_iscrossedout", price_regular_main_iscrossedout,  
-"price_regular_main_size", price_regular_main_size,  
-"price_promo_main", price_promo_main,  
-"price_promo_main_isred", price_promo_main_isred, 
-"price_promo_main_isbold", price_promo_main_isbold, 
-"price_promo_main_size", price_promo_main_size)
+"\nprice_regular_main", price_regular_main,  
+"\nprice_regular_main_isgrey", price_regular_main_isgrey,
+"\nprice_regular_main_iscrossedout", price_regular_main_iscrossedout,  
+"\nprice_regular_main_size", price_regular_main_size,  
+"\nprice_promo_main", price_promo_main,  
+"\nprice_promo_main_isred", price_promo_main_isred, 
+"\nprice_promo_main_isbold", price_promo_main_isbold, 
+"\nprice_promo_main_size", price_promo_main_size)
 # б) на главной странице и на странице товара совпадают цены (обычная и акционная)
 # в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
 # г) акционная жирная и красная (можно считать, что "красный" цвет это такой, у которого в RGBa представлении каналы G и B имеют нулевые значения)
